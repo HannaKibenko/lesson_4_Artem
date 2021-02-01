@@ -1,0 +1,149 @@
+/* подключение шрифтов*/
+@font-face {
+	font-family: "Amatic SC";
+	src: url("../fonts/AmaticSC-Bold.woff2") format("woff2"), url("../fonts/AmaticSC-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+/* font-family: 'Hachi Maru Pop', cursive;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto+Condensed:ital@1&display=swap");
+
+/* font-family: 'Roboto Condensed', sans-serif;*/
+
+@font-face {
+	font-family: "Mint Round";
+	src: url("../fonts/MintRound.eot");
+	src: local("Mint Round"), local("MintRound"), url("../fonts/MintRound.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/MintRound.woff2") format("woff2"), url("../fonts/MintRound.woff") format("woff"),
+		url("../fonts/MintRound.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Mint Round - Inline";
+	src: url("../fonts/MintRoundInline.eot");
+	src: local("Mint Round - Inline"), local("MintRoundInline"),
+		url("../fonts/MintRoundInline.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/MintRoundInline.woff2") format("woff2"), url("../fonts/MintRoundInline.woff") format("woff"),
+		url("../fonts/MintRoundInline.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Mint Round - Outline";
+	src: url("../fonts/MintRoundOutline.eot");
+	src: local("Mint Round - Outline"), local("MintRoundOutline"),
+		url("../fonts/MintRoundOutline.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/MintRoundOutline.woff2") format("woff2"), url("../fonts/MintRoundOutline.woff") format("woff"),
+		url("../fonts/MintRoundOutline.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+*,
+* ::before,
+* ::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body {
+	background: url("..//img/unnamed.jpg") no-repeat;
+	max-width: 1100px;
+	margin: 0 auto;
+	color: cornsilk;
+	background-size: cover;
+}
+.header {
+	padding: 40px 0 0 0;
+}
+.title {
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+	text-align: center;
+	font-size: 40px;
+	margin: 0 0 50px 0;
+}
+.container {
+	text-align: center;
+}
+.nav {
+	display: inline-block;
+	margin: 0 0 40px 0;
+}
+.nav * {
+	margin: 0 60px 0 0;
+	font-size: 20px;
+	color: darkcyan;
+}
+.main {
+}
+.top {
+	font-family: "Mint Round - Outline";
+	font-size: 40px;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.top__2 {
+	font-family: "Mint Round - Outline";
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.list li {
+	font-size: 30px;
+	text-align: end;
+	color: aquamarine;
+	margin: 0 0 40px 0;
+}
+.text {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 25px;
+	padding: 20px;
+	text-align: justify;
+}
+.text span {
+	font-size: 35px;
+}
+.footer {
+	text-align: justify;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: "Hachi Maru Pop", cursive;
+}
+.bottom {
+}
+.info {
+}
